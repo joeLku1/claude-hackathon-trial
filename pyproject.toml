@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plotcraft-studio"
+version = "0.1.0"
+description = "A local-first live chart design studio powered by Matplotlib"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Joel Ku"}]
+dependencies = ["matplotlib==3.10.8"]
+
+[project.scripts]
+plotcraft = "plotcraft.server:main"
+
+[tool.setuptools.packages.find]
+include = ["plotcraft*"]
+
+[tool.setuptools.package-data]
+plotcraft = ["static/*"]
