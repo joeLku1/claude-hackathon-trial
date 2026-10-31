@@ -93,7 +93,7 @@ The included GitHub Actions workflow is configured to test Python 3.10 and 3.12,
 
 ## Verification and publishing status
 
-The local Python suite passed all 15 tests, including all seven chart types in three export formats. A source-built wheel was checked for the editor assets. The sample PNG was visually inspected. Browser smoke automation is included but has **not yet run**: the build environment blocked the Chromium download. GitHub rejected repository writes with HTTP 403 (“Resource not accessible by integration”), so this package has not been pushed and no GitHub release has been published. See [PUBLISH.md](PUBLISH.md) to finish publishing after granting the connection access or using your own authenticated Git client.
+The local Python suite passed all 15 tests, including all seven chart types in three export formats. A source-built wheel was checked for the editor assets. The sample PNG was visually inspected. Browser smoke automation is included but has **not yet run**: the build environment blocked the Chromium download. The source is now published in the linked repository. The workflow will run the Python and browser checks before creating the first v0.1.0 release. See [PUBLISH.md](PUBLISH.md) for the release workflow and known verification notes.
 
 ## License
 
