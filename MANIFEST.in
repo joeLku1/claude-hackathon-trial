@@ -1,0 +1,3 @@
+include LICENSE README.md CHANGELOG.md DEMO.md PUBLISH.md requirements.txt
+recursive-include plotcraft/static *
+recursive-include tests *.py *.cjs
