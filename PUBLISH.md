@@ -1,6 +1,6 @@
 # Publish the first GitHub release
 
-The code is prepared for `joeLku1/claude-hackathon-trial`. The connected GitHub integration returned HTTP 403, “Resource not accessible by integration,” when creating a Git tree. No branch, commit, pull request, tag, or release was written to GitHub.
+The code is prepared for `joeLku1/claude-hackathon-trial`. The source is now published to the repository. The workflow is configured to test, package, and publish v0.1.0 after successful checks.
 
 ## Finish through ChatGPT
 
